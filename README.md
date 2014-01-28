@@ -39,7 +39,7 @@ void loop(){
 The parameters for the constructor are : 
 
 1. Application Version (`unsigned int` >0)
-2. Application id (`String`)
+2. Application id (`String` only letters, numbers and dot symbol)
 3. Reset pin(see hardware)
 4. Cancel pin (see hardware)
 5. EEPROM address offset
