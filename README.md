@@ -5,14 +5,21 @@ Arduino Pro Mini Library to embed a self update mechanism.
 ## Principle
 A serial connection with a host computer can put the device into an update mode where it continuously reboots to wait for the new program to be uploaded.
 
-The library requires 2 pins : 1 for the reset command and one for the cancel switch (or jumper)
+The library requires 2 pins :
+
+* 1 for the reset command, it triggers the reset pin through a condenser/resistor buffer.
+* and one for the cancel switch (or jumper). It can be used for another purpose after the library's setup method has been called.
 ## Usage
 ### Hardware
 ![Imgur](http://i.imgur.com/Zv3oz1t.png)
+
 ###Software
+
 ####Arduino
+
 The most simple Arduino Sketch is : 
-```C
+
+```CPP
 #include "ProMiniUpdate.h"
 
 #include <EEPROM.h>
