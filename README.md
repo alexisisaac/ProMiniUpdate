@@ -14,8 +14,8 @@ The library requires 2 pins :
 
 ### Hardware
 
-![Imgur](http://i.imgur.com/Zv3oz1t.png)
-![Imgur](http://i.imgur.com/y6ux0Yi.png)
+![Breadboard](http://i.imgur.com/Zv3oz1t.png)
+![Schematic](http://i.imgur.com/y6ux0Yi.png)
 
 ###Software
 
