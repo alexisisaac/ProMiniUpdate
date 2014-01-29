@@ -9,9 +9,13 @@ The library requires 2 pins :
 
 * 1 for the reset command, it triggers the reset pin through a condenser/resistor buffer.
 * and one for the cancel switch (or jumper). It can be used for another purpose after the library's setup method has been called.
+
 ## Usage
+
 ### Hardware
+
 ![Imgur](http://i.imgur.com/Zv3oz1t.png)
+![Imgur](http://i.imgur.com/y6ux0Yi.png)
 
 ###Software
 
